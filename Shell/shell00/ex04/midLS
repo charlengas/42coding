@@ -1,4 +1,1 @@
-ls -t -F | tr '
-' '
-' | sed 's/$/, /' | tr -d '
-' | sed 's/, $//'
+ls -t -F | tr '' '' | sed 's/$/, /' | tr -d '' | sed 's/, $//'
